@@ -8,11 +8,11 @@ import {
   FaSlack,
   FaWhatsapp,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handClick = () => setNav(!nav);
+  const handleClose = () => setNav(!nav);
 
   return (
     <div className="w-full h-16 shadow-xl bg-[#ecf0f3] fixed z-[100]">
@@ -23,20 +23,20 @@ const Navbar = () => {
 
         <ul className="hidden md:flex">
           <li className="pl-4 font-bold text-sm">
-            <Link to="/">Home</Link>
+            <a href="#">Home</a>
           </li>
           <li className="pl-4 font-bold text-sm">
-            <Link to="/about">About</Link>
+            <a href="#about">About</a>
           </li>
           <li className="pl-4 font-bold text-sm">
-            <Link to="/skills">Skills</Link>
+            <a href="#skills">Skills</a>
           </li>
 
           <li className="pl-4 font-bold text-sm">
-            <Link to="/resume">Resume</Link>
+            <a href="#resume">Resume</a>
           </li>
           <li className="pl-4 font-bold text-sm">
-            <Link to="/contact">Contact</Link>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
 
@@ -101,21 +101,21 @@ const Navbar = () => {
             {/*  */}
             <div className="flex flex-col py-4 ">
               <ul className="font-bold space-y-1">
-                <li className="text-sm">
-                  <Link to="/">Home</Link>
+                <li className="text-sm" onClick={handleClose}>
+                  <a href="#">Home</a>
                 </li>
-                <li className="text-sm">
-                  <Link to="/about">About</Link>
+                <li className="text-sm" onClick={handleClose}>
+                  <a href="#about">About</a>
                 </li>
-                <li className="text-sm">
-                  <Link to="/skills">Skills</Link>
+                <li className="text-sm" onClick={handleClose}>
+                  <a href="#skills">Skills</a>
                 </li>
 
-                <li className="text-sm">
-                  <Link to="/resume">Resume</Link>
+                <li className="text-sm" onClick={handleClose}>
+                  <a href="#resume">Resume</a>
                 </li>
-                <li className="text-sm">
-                  <Link to="/contact">Contact</Link>
+                <li className="text-sm" onClick={handleClose}>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -127,27 +127,32 @@ const Navbar = () => {
             </p>
             {/* <div className="flex justify-between py-3 space-x-5 text-white"> */}
             <div className="flex items-center justify-between py-3 text-slate-300 space-x-4 w-full sm:w-[80%]">
-              <a href="http://">
+              <a href="http://"             onClick={handleClose}
+>
                 <div className="rounded-full shadow-lg bg-black shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaGithub />
                 </div>
               </a>
-              <a href="http://">
+              <a href="http://"             onClick={handleClose}
+>
                 <div className="rounded-full bg-blue-600 shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaLinkedinIn className="" />
                 </div>
               </a>
-              <a href="http://">
+              <a href="http://"             onClick={handleClose}
+>
                 <div className="rounded-full bg-[#7289da] shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaDiscord className="" />
                 </div>
               </a>
-              <a href="http://">
+              <a href="http://"             onClick={handleClose}
+>
                 <div className="rounded-full bg-green-600 shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaWhatsapp className="" />
                 </div>
               </a>
-              <a href="http://">
+              <a href="http://"             onClick={handleClose}
+>
                 <div className="rounded-full shadow-lg text-black shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaSlack />
                 </div>

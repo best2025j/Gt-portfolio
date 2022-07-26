@@ -10,7 +10,7 @@ import NextJS from "../Assets/skills/nextjs.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen sm:p-2 p-4">
+    <div id="skills" className="w-full lg:h-auto sm:px-4 px-4 py-20">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills

@@ -21,8 +21,8 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
+    <div id="contact" className="w-full lg:h-auto">
+      <div className="max-w-[1240px] m-auto px-4 py-16 w-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
         </p>
@@ -91,11 +91,7 @@ const Contact = () => {
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-500 border border-gray-400 rounded-3xl lg:p-4">
             <div className="p-4">
-              <form
-                onSubmit={handleSubmit}
-                action="https://"
-                method="POST"
-              >
+              <form onSubmit={handleSubmit} action="https://" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
@@ -161,7 +157,7 @@ const Contact = () => {
         {/*  */}
 
         <div className="flex justify-center py-12">
-          <a href="/">
+          <a href="#">
             <div className="rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
             </div>

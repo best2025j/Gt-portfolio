@@ -1,19 +1,9 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import Navbar from "../Components/Navbar";
 
 const Resume = () => {
   return (
     <>
-      {/* <head>
-        <title>Audu | Resume</title>
-        <meta
-          name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
-        />
-        <link rel="icon" href="/fav.png" />
-      </head> */}
-      <Navbar />
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 sm:w-full w-[98%] sm:flex sm:justify-between items-center ">
