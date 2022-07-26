@@ -1,24 +1,24 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { Route, Routes } from "react-router-dom";
+import Navbar from "../Components/Navbar";
 
 const Resume = () => {
   return (
     <>
-      {/* <Head>
+      {/* <head>
         <title>Audu | Resume</title>
         <meta
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
         <link rel="icon" href="/fav.png" />
-      </Head> */}
-      
+      </head> */}
+      <Navbar />
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
-        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
+        <div className="bg-[#d0d4d6] my-4 p-4 sm:w-full w-[98%] sm:flex sm:justify-between items-center ">
           <h2 className="text-center">Audu Godstime</h2>
-          <div className="flex">
+          <div className="flex pl-[8rem] py-2">
             <a
               href="https://www.linkedin.com/in/clint-briley-50056920a/"
               target="_blank"
@@ -48,7 +48,7 @@ const Resume = () => {
             <p>Problem Solving</p>
           </div>
         </div>
-        <p>
+        <p className="text-center">
           Analytical, innovative, and motivated web development professional
           with experience in customer service, team leadership, and
           organizational effectiveness in fast-paced and challenging

@@ -8,6 +8,7 @@ import {
   FaSlack,
   FaWhatsapp,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,29 +16,27 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-16 shadow-xl bg-[#ecf0f3] fixed z-[100]">
-      <div className="flex justify-between items-center w-full h-full px-4git 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <a href="/">
           <img src={image} alt="" className="w-14 h-14" />
         </a>
 
         <ul className="hidden md:flex">
           <li className="pl-4 font-bold text-sm">
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="pl-4 font-bold text-sm">
-            <a href="/">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li className="pl-4 font-bold text-sm">
-            <a href="/">Skills</a>
+            <Link to="/skills">Skills</Link>
           </li>
-          {/* <li className="pl-4 font-bold text-sm">
-            <a href="/">Products</a>
-          </li> */}
+
           <li className="pl-4 font-bold text-sm">
-            <a href="/">Resume</a>
+            <Link to="/resume">Resume</Link>
           </li>
           <li className="pl-4 font-bold text-sm">
-            <a href="/">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
 
@@ -80,7 +79,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <a href="/">
-                <img src={image} className="w-14 h-14" alt="" />
+                <img src={image} className="w-14 h-14" alt="/" />
               </a>
 
               {/* MOBILE VEIW */}
@@ -103,22 +102,20 @@ const Navbar = () => {
             <div className="flex flex-col py-4 ">
               <ul className="font-bold space-y-1">
                 <li className="text-sm">
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="text-sm">
-                  <a href="/">About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li className="text-sm">
-                  <a href="/">Skills</a>
+                  <Link to="/skills">Skills</Link>
+                </li>
+
+                <li className="text-sm">
+                  <Link to="/resume">Resume</Link>
                 </li>
                 <li className="text-sm">
-                  <a href="/">Products</a>
-                </li>
-                <li className="text-sm">
-                  <a href="/">Resume</a>
-                </li>
-                <li className="text-sm">
-                  <a href="/">Contact</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
