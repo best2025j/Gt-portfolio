@@ -23,7 +23,7 @@ const Navbar = () => {
 
         <ul className="hidden md:flex">
           <li className="pl-4 font-bold text-sm">
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className="pl-4 font-bold text-sm">
             <a href="#about">About</a>
@@ -102,7 +102,7 @@ const Navbar = () => {
             <div className="flex flex-col py-4 ">
               <ul className="font-bold space-y-1">
                 <li className="text-sm" onClick={handleClose}>
-                  <a href="#">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li className="text-sm" onClick={handleClose}>
                   <a href="#about">About</a>
@@ -127,32 +127,27 @@ const Navbar = () => {
             </p>
             {/* <div className="flex justify-between py-3 space-x-5 text-white"> */}
             <div className="flex items-center justify-between py-3 text-slate-300 space-x-4 w-full sm:w-[80%]">
-              <a href="http://"             onClick={handleClose}
->
+              <a href="http://" onClick={handleClose}>
                 <div className="rounded-full shadow-lg bg-black shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaGithub />
                 </div>
               </a>
-              <a href="http://"             onClick={handleClose}
->
+              <a href="http://" onClick={handleClose}>
                 <div className="rounded-full bg-blue-600 shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaLinkedinIn className="" />
                 </div>
               </a>
-              <a href="http://"             onClick={handleClose}
->
+              <a href="http://" onClick={handleClose}>
                 <div className="rounded-full bg-[#7289da] shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaDiscord className="" />
                 </div>
               </a>
-              <a href="http://"             onClick={handleClose}
->
+              <a href="http://" onClick={handleClose}>
                 <div className="rounded-full bg-green-600 shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaWhatsapp className="" />
                 </div>
               </a>
-              <a href="http://"             onClick={handleClose}
->
+              <a href="http://" onClick={handleClose}>
                 <div className="rounded-full shadow-lg text-black shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaSlack />
                 </div>
