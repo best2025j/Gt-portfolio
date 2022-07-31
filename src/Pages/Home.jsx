@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import About from "../Components/About";
 import Contact from "../Components/Contact";
 import Main from "../Components/Main";
@@ -14,6 +15,7 @@ const Home = () => {
       <Skills />
       <Resume />
       <Contact />
+      <Outlet />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "../Assets/logo-jira.svg";
+import image from "../Assets/gt.jpeg";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import {
   FaDiscord,
@@ -15,10 +15,10 @@ const Navbar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <div className="w-full h-16 shadow-xl bg-[#ecf0f3] fixed z-[100]">
+    <div className="w-full h-16 shadow-md bg-white fixed z-[100]">
       <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <a href="/">
-          <img src={image} alt="" className="w-14 h-14" />
+          <img src={image} alt="" className="w-14 h-14 rounded-full" />
         </a>
 
         <ul className="hidden md:flex">
@@ -72,7 +72,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen sm:overflow-scroll bg-[#ecf0f3] p-5 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen sm:overflow-scroll bg-white p-5 ease-in duration-500"
               : "fixed left-[-100%] h-screen top-0 p-5 ease-out duration-500"
           }
         >
@@ -127,22 +127,25 @@ const Navbar = () => {
             </p>
             {/* <div className="flex justify-between py-3 space-x-5 text-white"> */}
             <div className="flex items-center justify-between py-3 text-slate-300 space-x-4 w-full sm:w-[80%]">
-              <a href="http://" onClick={handleClose}>
+              <a href="https://github.com/best2025j" onClick={handleClose}>
                 <div className="rounded-full shadow-lg bg-black shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaGithub />
                 </div>
               </a>
-              <a href="http://" onClick={handleClose}>
+              <a
+                href="https://www.linkedin.com/in/audu-godstime"
+                onClick={handleClose}
+              >
                 <div className="rounded-full bg-blue-600 shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaLinkedinIn className="" />
                 </div>
               </a>
-              <a href="http://" onClick={handleClose}>
+              <a href="https://" onClick={handleClose}>
                 <div className="rounded-full bg-[#7289da] shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaDiscord className="" />
                 </div>
               </a>
-              <a href="http://" onClick={handleClose}>
+              <a href="https://wa.me/09012902537" onClick={handleClose}>
                 <div className="rounded-full bg-green-600 shadow-lg shadow-gray-600 hover:scale-105 easy-in duration-300 p-2 sm:p-4 cursor-pointer">
                   <FaWhatsapp className="" />
                 </div>

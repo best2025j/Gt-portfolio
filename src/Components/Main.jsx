@@ -25,7 +25,7 @@ const Main = () => {
           </p>
           {/* ICONS */}
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 space-x-1 sm:space-x-3 text-slate-300">
-            <a href="http://">
+            <a href="https://github.com/best2025j">
               <div className="rounded-full shadow-lg bg-black shadow-gray-400 p-5 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
@@ -33,7 +33,7 @@ const Main = () => {
 
             {/*  */}
 
-            <a href="http://">
+            <a href="https://www.linkedin.com/in/audu-godstime">
               <div className="rounded-full bg-blue-600 shadow-lg shadow-gray-400 p-5 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn className="" />
               </div>
@@ -49,7 +49,7 @@ const Main = () => {
 
             {/*  */}
 
-            <a href="http://">
+            <a href="https://wa.me/09012902537">
               <div className="rounded-full bg-green-600 shadow-lg shadow-gray-400 p-5 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaWhatsapp className="" />
               </div>

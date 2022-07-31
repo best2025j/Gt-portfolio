@@ -18,7 +18,7 @@ const Skills = () => {
         <h2 className="py-4">What I Can Do</h2>
         {/*  */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={Html} width="64px" height="64px" alt="/" />
@@ -29,7 +29,7 @@ const Skills = () => {
             </div>
           </div>
           {/*  */}
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={Css} width="64px" height="64px" alt="/" />
@@ -40,7 +40,7 @@ const Skills = () => {
             </div>
           </div>
           {/*  */}
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={Javascript} width="64px" height="64px" alt="/" />
@@ -51,7 +51,7 @@ const Skills = () => {
             </div>
           </div>
           {/*  */}
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={ReactImg} width="64px" height="64px" alt="/" />
@@ -62,7 +62,7 @@ const Skills = () => {
             </div>
           </div>
           {/*  */}
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={Tailwind} width="64px" height="64px" alt="/" />
@@ -73,7 +73,7 @@ const Skills = () => {
             </div>
           </div>
           {/*  */}
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={Firebase} width="64px" height="64px" alt="/" />
@@ -84,7 +84,7 @@ const Skills = () => {
             </div>
           </div>
           {/*  */}
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={Github} width="64px" height="64px" alt="/" />
@@ -95,7 +95,7 @@ const Skills = () => {
             </div>
           </div>
           {/*  */}
-          <div className="p-6 shadow-gray-600 shadow-lg rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 shadow-gray-600 shadow-md rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <img src={NextJS} width="64px" height="64px" alt="/" />

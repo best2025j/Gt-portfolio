@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../Assets/contact.jpg";
 
@@ -29,7 +28,7 @@ const Contact = () => {
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-500 border border-gray-400 rounded-3xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-500 border border-gray-400 rounded-3xl p-4">
             <div className="lg:p-4 h-full ">
               <div>
                 <img
@@ -49,7 +48,11 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <a href="https://" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.linkedin.com/in/audu-godstime"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="rounded-full shadow-lg bg-blue-600 text-white shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
@@ -66,18 +69,18 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="/https://gmail.com/audugodstime95@gmail.com"
+                    href="https://wa.me/09012902537"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg  shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <AiOutlineMail />
+                    <div className="rounded-full shadow-lg bg-green-500 shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaWhatsapp />
                     </div>
                   </a>
 
                   {/*  */}
-                  <a href="/resume">
-                    <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <a href="#resume">
+                    <div className="rounded-full shadow-lg bg-gray-500 shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>
                   </a>
@@ -89,7 +92,7 @@ const Contact = () => {
           {/* right */}
           {/* FORM INPUT */}
 
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-500 border border-gray-400 rounded-3xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-md shadow-gray-500 border border-gray-400 rounded-3xl lg:p-4">
             <div className="p-4">
               <form onSubmit={handleSubmit} action="https://" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">

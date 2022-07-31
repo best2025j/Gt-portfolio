@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Resume = () => {
   return (
     <>
-      <div id="resume" className="max-w-[940px] mx-auto p-2 pt-[120px]">
+      <div id="resume" className="max-w-[940px] mx-auto p-4 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 sm:w-full w-[98%] sm:flex sm:justify-between items-center ">
           <h2 className="text-center">Audu Godstime</h2>
