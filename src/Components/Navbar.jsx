@@ -32,9 +32,10 @@ const Navbar = () => {
             <a href="#skills">Skills</a>
           </li>
 
-          <li className="pl-4 font-bold text-sm">
+          {/* <li className="pl-4 font-bold text-sm">
             <a href="#resume">Resume</a>
-          </li>
+          </li> */}
+
           <li className="pl-4 font-bold text-sm">
             <a href="#contact">Contact</a>
           </li>
@@ -111,9 +112,10 @@ const Navbar = () => {
                   <a href="#skills">Skills</a>
                 </li>
 
-                <li className="text-sm" onClick={handleClose}>
+                {/* <li className="text-sm" onClick={handleClose}>
                   <a href="#resume">Resume</a>
-                </li>
+                </li> */}
+
                 <li className="text-sm" onClick={handleClose}>
                   <a href="#contact">Contact</a>
                 </li>
