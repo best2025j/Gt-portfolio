@@ -23,6 +23,7 @@ const Main = () => {
             I’m focused on building responsive front-end web applications while
             i learn back-end technologies later on.
           </p>
+          
           {/* ICONS */}
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 space-x-1 sm:space-x-3 text-slate-300">
             <a href="https://github.com/best2025j">

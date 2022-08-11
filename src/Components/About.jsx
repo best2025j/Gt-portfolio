@@ -3,7 +3,7 @@ import AboutImg from "../Assets/projects/about.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-auto px-4 flex items-center py-20">
+    <div id="about" className="w-full md:h-auto px-4 flex items-center pt-20">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
